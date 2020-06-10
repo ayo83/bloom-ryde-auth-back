@@ -1,0 +1,35 @@
+{
+  "name": "bloom-ryde-auth-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayo83/bloom-ryde-auth-back.git"
+  },
+  "author": "Ayomikun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayo83/bloom-ryde-auth-back/issues"
+  },
+  "homepage": "https://github.com/ayo83/bloom-ryde-auth-back#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "gravatar": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.5.4",
+    "mongoose": "^5.9.4",
+    "multer": "^1.4.2",
+    "sharp": "^0.25.2",
+    "validator": "^12.2.0"
+  }
+}
